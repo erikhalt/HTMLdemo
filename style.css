@@ -1,0 +1,27 @@
+p {
+    color: blue;
+    background-color: transparent;
+    position: relative;
+    left:200px;
+}
+
+h1 {
+    color:red;
+    position: relative;
+    left: 400px;
+    top: 15px;
+}
+
+#secretmsg {
+    color: red;
+    background-color: transparent;
+    position: relative;
+    display: none;
+}
+
+button {
+    width: 70px;
+    height: 50px;
+    color: blue;
+    background-color: green;
+}
