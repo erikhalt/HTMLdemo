@@ -1,27 +1,58 @@
-p {
-    color: blue;
-    background-color: transparent;
-    position: relative;
-    left:200px;
+#NAVBAR {
+    POSITION: absolute;
+    width: 200px;
+    height: 768px;
+    background-color: lightgreen;
+    top: 0px;
+    left: 0px;
 }
 
-h1 {
-    color:red;
-    position: relative;
-    left: 400px;
-    top: 15px;
+#ALLCONTENT {
+    position: absolute;
+    width: 1366px;
+    height: 768px;
+    top: 0px;
+    left: 200px;
+    background-color: lightblue;
 }
 
-#secretmsg {
-    color: red;
-    background-color: transparent;
-    position: relative;
-    display: none;
+#logo {
+    background-color: orangered;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    top: 20px;
+    position: absolute;
+    left: 25px;
 }
 
-button {
+.letterEv {
+    position: relative;
     width: 70px;
-    height: 50px;
-    color: blue;
-    background-color: green;
+    height: 15px;
+    margin: 25px;
+    background-color: orange;
+    left: 15px;
+}
+
+.letterEh {
+    width: 15px;
+    height: 95px;
+    background-color: orange;
+    top: -120px;
+    position: relative;
+    left: 40px;
+}
+
+.navbutton {
+    font-size: 30px;
+    position: relative;
+    top: 200px;
+    margin: 20px;
+    color: orangered;
+}
+
+a {
+    text-decoration: none;
+    color: #ff0000;
 }
