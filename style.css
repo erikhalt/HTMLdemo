@@ -9,7 +9,8 @@
 
 #ALLCONTENT {
     position: absolute;
-    width: 1366px;
+    min-width: 1080px;
+    max-width: 1720px;
     height: 768px;
     top: 0px;
     left: 200px;
